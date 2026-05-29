@@ -1,5 +1,5 @@
 
-const DATA_FILE = "egoa.json";
+const DATA_FILE = "egoa_questions.json";
 
 let settings = {
   show_progress: true,
