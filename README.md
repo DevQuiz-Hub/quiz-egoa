@@ -1,52 +1,49 @@
-# EGOA Test – Banco de preguntas tipo test
+# quiz-egoa 🧠
 
-Repositorio con un **banco de preguntas tipo test de EGOA**, preparado para su uso como **herramienta de práctica y autoevaluación**, incluyendo despliegue como **web estática (GitHub Pages)**.
+Interactive self-assessment test engine for **EGOA (Escala de Gestión de Organismos Autónomos / Temario Administrativo y Sanitario - Scale for the Management of Autonomous Public Agencies / Administrative and Healthcare Public Sector Regulations)**.
 
-## Contenido
-- **xxx preguntas tipo test**.
-- Cada pregunta incluye:
-  - opciones de respuesta,
-  - respuesta correcta,
-  - campo de justificación (presente en parte del banco y ampliable).
+This repository contains an original self-assessment platform and curated question set created by the repository owner with AI-assisted content generation, validation and refinement workflows.
 
-## Origen del contenido
-- Preguntas recopiladas a partir de **materiales de estudio y tests tipo de exámenes anteriores**.
-- El contenido ha sido **estructurado en formato JSON** a partir de documentos originales y **adaptado con apoyo de herramientas de inteligencia artificial**, manteniendo fidelidad al temario.
-- Las justificaciones incluidas reflejan el contenido original cuando estaba disponible.
+Part of the DevQuiz-Hub ecosystem.
 
-## Uso
-Repositorio orientado a:
-- estudio individual,
-- repaso de conceptos teóricos clave,
-- práctica intensiva tipo test,
-- simulación de exámenes.
+## 📚 Core Topics Covered
 
-La aplicación funciona como una **web estática** (HTML + JavaScript + JSON),  
-sin backend ni dependencias externas.
+* **Block 1:** Spanish Constitution and constitutional institutions.
+* **Block 2:** Public Administration, Administrative Procedure and Public Sector Legal Framework.
+* **Block 3:** Public Employment, Civil Service Regulations and Administrative Organization.
+* **Block 4:** Public Procurement, State Budget and Government Administration.
+* **Block 5:** Equality legislation, citizens' rights and public policies.
+* **Block 6:** National Health System legislation and healthcare management.
+* **Block 7:** Public Health, epidemiological surveillance and health regulations.
+* **Block 8:** Vaccination programmes, preventive medicine and international health regulations.
+* **Block 9:** Health law, patient autonomy, biomedical research and healthcare quality frameworks.
 
-## Configuración del test
-El comportamiento del test permite:
-- barajado de preguntas,
-- barajado de opciones,
-- visualización del progreso,
-- visualización de explicaciones tras responder.
+## 🛠️ Data Contract & Logic
 
-La corrección se realiza por **texto de la respuesta correcta**, por lo que el orden de las opciones no afecta a la validez del resultado.
+This repository implements the standardized architecture of the organization:
 
-## Aviso
-Este material es **exclusivamente educativo** y **no constituye un banco oficial de examen**.
+* **`egoa_questions.json`**: Contains the complete official-style question bank, explanations and metadata.
+* **`quiz.js`**: Core engine responsible for question rendering, randomization and score calculation.
+* **`index.html`**: Lightweight client-side application with responsive interface.
+* **`styles.css`**: Visual customization and responsive design rules.
 
-No se garantiza coincidencia exacta con exámenes reales.  
-Las respuestas **no han sido validadas de forma oficial** y pueden contener errores puntuales.
+## ✨ Features
 
-Se recomienda **contrastar siempre con el temario oficial y los materiales docentes**.
+* Large official-exam-style question bank
+* Randomized questions and answers
+* Detailed explanations
+* Progress tracking
+* Instant scoring
+* Mobile-friendly interface
+* GitHub Pages compatible
 
-## Licencia
-Este repositorio se publica bajo licencia **Creative Commons BY-NC-SA 4.0**  
-(Atribución – No Comercial – Compartir Igual).
+## 🎯 Intended Audience
 
-El contenido puede utilizarse y compartirse con fines educativos,  
-pero **no puede utilizarse con fines comerciales**.
+* Public administration candidates
+* Healthcare public sector candidates
+* Competitive examination preparation
+* Continuous professional development
 
----
-Proyecto personal de estudio.
+## 🚀 Live Demo
+
+🔗 **https://reichgp.github.io/quiz-egoa/**
